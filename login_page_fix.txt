@@ -1,0 +1,1 @@
+Fix login page error at line 609: Replace comma + period with properly indented animation code
