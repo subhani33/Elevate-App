@@ -29,6 +29,13 @@ analyzer:
     deprecated_member_use: ignore
     use_build_context_synchronously: ignore
     unused_local_variable: ignore
+  exclude:
+    - 'flutter/**'
+    - '**/flutter/**'
+    - '**/integration_tests/**'
+    - '**/test_driver/**'
+    - '**/test_memory/**'
+    - '**/test/**'
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
